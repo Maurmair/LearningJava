@@ -12,7 +12,7 @@ public class manymethodsninstancesOne
 		//String tempName = input.nextLine();
 		
 		//manymethodsninstancesObject .setName(tempName);
-		manymethodsninstancesObject.saying();
+		manymethodsninstancesObject.saying();//tst	
 	}
 	
 }
