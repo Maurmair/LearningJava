@@ -7,11 +7,11 @@ public class manymethodsninstancesOne
 	public static void main (String args[])
 	{
 		Scanner input = new Scanner (System.in);
-		manymethodsninstances manymethodsninstancesObject = new manymethodsninstances();
+		manymethodsninstances manymethodsninstancesObject = new manymethodsninstances("Nora");
 		System.out.println("Enter name of to be wife here: ");
-		String tempName = input.nextLine();
+		//String tempName = input.nextLine();
 		
-		manymethodsninstancesObject .setName(tempName);
+		//manymethodsninstancesObject .setName(tempName);
 		manymethodsninstancesObject.saying();
 	}
 	

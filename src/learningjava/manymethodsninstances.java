@@ -2,6 +2,10 @@ package learningjava;
 
 public class manymethodsninstances {
 	private String girlName;
+	public manymethodsninstances(String name)
+	{
+		girlName = name;
+	}
 	public void setName (String name)
 	{
 		girlName = name;
