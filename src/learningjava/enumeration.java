@@ -3,7 +3,10 @@ package learningjava;
 public enum enumeration {
 	wes("Good", "28"),
 	nora("Love", "24"),
-	mitch("Brother", "23");
+	mitch("Brother", "23"),
+	olli("schoonbroer", "23"),
+	candy("paard", "21"),
+	anne("jaja", "27");
 	
 	private final String desc;
 	private final String year;
