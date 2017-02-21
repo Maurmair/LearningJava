@@ -10,6 +10,7 @@ public class timeclass {
 		hour = (( h>= 0 && h<24 ) ? h : 0  );
 		minute = (( m>= 0 && m<60 ) ? m : 0  );
 		second = (( s>= 0 && s<60 ) ? s : 0  );
+		// use this.hour / this.minute / this.second to use variables in this method. When your don't instance variables will be use instead
 	}
 	
 	public String toMilitary(){
