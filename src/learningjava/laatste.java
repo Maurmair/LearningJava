@@ -1,6 +1,6 @@
 package learningjava;
 
-public class laatste {
+public class laatste extends Erving {
 	public static void main(String args[]){
 		laatsteone mylaatste = new laatsteone(22);
 
